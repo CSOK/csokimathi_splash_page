@@ -1,0 +1,22 @@
+html, body {
+    margin: 0; padding: 0;
+  }
+  .hero-bkg-animated {
+    background: gray url("../img/college.png") repeat 0 0;
+    width: 4600px;
+    margin: 0;
+    text-align: center;
+    height: 1000px;
+    padding-top: 0;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  }
+  
+  .hero-bkg-animated h1 {
+    font-family: sans-serif;
+  }
+  
+  @-webkit-keyframes slide {
+      from { background-position: 0 0; }
+      to { background-position: -1000px 0; }
+  }
