@@ -1,0 +1,23 @@
+html, body {
+    margin: 0; padding: 0;
+  }
+  .hero-bkg-animated {
+    background: gray url("../img/csokprofile.jpg") repeat 0 0;
+    width: inherit;
+    margin: 0;
+    text-align: center;
+    min-height: 1366px;
+    /* height: auto; */
+    padding-top: 0;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+  }
+  
+  .hero-bkg-animated h1 {
+    font-family: sans-serif;
+  }
+  
+  @-webkit-keyframes slide {
+      from { background-position: 0 0; }
+      to { background-position: -400px 0; }
+  }
